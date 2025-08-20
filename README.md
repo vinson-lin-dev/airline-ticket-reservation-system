@@ -3,9 +3,16 @@ Full-stack web application to allow customers, booking agents, and airline staff
 
 ## Screenshots
 ![Homepage](docs/images/home.png)
+On the homepage, a guest can search for flights or look at suggested flights.
+
 ![Sign-up Page](docs/images/signup.png)
+Users can choose to login or sign-up as a customer, agent, or staff.
+
 ![Customer Page](docs/images/customer.png)
+Customers can buy tickets and look at their purchased tickets. Charts also show spending trends. 
+
 ![Staff Page](docs/images/airline_staff.png)
+Staffs can manage agents, check frequent fliers, and more. 
 
 ## Quick Start
 Test Accounts

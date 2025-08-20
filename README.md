@@ -33,8 +33,3 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python app.py (or python3 app.py)
-
-questions
-* is it standard for one to run this with python3 app.py and not just python app.py? can i stop it from doing so? does the fact that i have "alias python=/usr/bin/python3" in "nano ~/.zshrc"
-* running the following in the venv "pip install -r requirements.txt" returned: WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x1069a5940>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /simple/bcrypt/ ERROR: Could not find a version that satisfies the requirement bcrypt==4.2.1 (from versions: none)
-ERROR: No matching distribution found for bcrypt==4.2.1
